@@ -1,0 +1,339 @@
+body {
+    background-color: rgb(255, 255, 255); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    color: #656464;
+}
+
+
+
+.nav {
+    background-color: #656464;
+    box-shadow: 0 4px 8px hsla(315, 100%, 63%, 0.888);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.nav-link {
+    color: white;
+    padding: 5px;
+
+}
+
+.nav-link:hover {
+    background-color: #b80485;
+    border-radius: 5px;
+}
+
+
+
+.section {
+    display: block;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.section:target {
+    display: block;
+
+}
+
+#home {
+    display: block;
+}
+
+.profile {
+    text-align: center;
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+.profile h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 54px;
+    color: #9c0270;
+    border-bottom: 2px solid #b80485;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+
+}
+
+.profile h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+    color: #b80485;
+    border-bottom: 2px solid #b80485;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+
+}
+
+.profile p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #1f1f1f;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.edu {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+.edu h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #b80485;
+    border-bottom: 2px solid #b80485;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.edu p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1f1f1f;
+    font-size: 18px;
+    border-bottom: 2px solid #b80485;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.pro {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+.pro h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #b80485;
+    border-bottom: 2px solid #b80485;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.pro h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #393839;
+    border-bottom: 2px solid #b80485;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.pro p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1f1f1f;
+    font-size: 18px;
+    border-bottom: 2px solid #b80485;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.lang {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+.lang h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #b80485;
+    border-bottom: 2px solid #b80485;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.lang p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1f1f1f;
+    font-size: 18px;
+    border-bottom: 2px solid #b80485;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+
+
+.skills {
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.skill h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #b80485;
+    border-bottom: 2px solid #b80485;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.skill p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1f1f1f;
+    font-size: 18px;
+    border-bottom: 2px solid #b80485;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #b80485;
+    color: white;
+}
+
+tr {
+    background-color: #e8e5e5;
+}
+
+
+.con {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+.con h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #b80485;
+    border-bottom: 2px solid #b80485;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.con p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1f1f1f;
+    font-size: 18px;
+    border-bottom: 2px solid #b80485;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #333; 
+    color: white; 
+    text-align: center;
+    padding: 15px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+@media (max-width: 992px) {
+    .edu, .pro, .con {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .profile h1 {
+        font-size: 35px;
+    }
+
+    .profile p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile h1 {
+        font-size: 30px;
+    }
+
+    .profile p {
+        font-size: 13px;
+    }
+
+    .edu, .pro, .con {
+        max-width: 95%;
+        padding: 15px;
+    }
+
+    .edu h2, .pro h2, .con h2 {
+        font-size: 20px;
+    }
+
+    .pro h3 {
+        font-size: 18px;
+    }
+
+    .pro p, .con p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile {
+        padding: 20px;
+    }
+
+    .profile h1 {
+        font-size: 25px;
+    }
+
+    .profile p {
+        font-size: 12px;
+    }
+
+    .edu, .pro, .con {
+        max-width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .edu h2, .pro h2, .con h2 {
+        font-size: 18px;
+    }
+
+    .pro h3 {
+        font-size: 16px;
+    }
+
+    .pro p, .con p {
+        font-size: 12px;
+    }
+}
+
