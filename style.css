@@ -249,17 +249,18 @@ footer {
     width: 100%;
 }
 
-
-
-
 @media (max-width: 992px) {
     .edu, .pro, .con {
-        max-width: 90%;
+        max-width: 85%;
         padding: 15px;
     }
 
     .profile h1 {
-        font-size: 35px;
+        font-size: 24px;
+    }
+
+    .profile h2 {
+        font-size: 18px;
     }
 
     .profile p {
@@ -268,9 +269,12 @@ footer {
 }
 
 @media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
     .nav {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -283,16 +287,16 @@ footer {
     }
 
     .edu, .pro, .con {
-        max-width: 95%;
+        max-width: 90%;
         padding: 15px;
     }
 
-    .edu h2, .pro h2, .con h2 {
-        font-size: 20px;
+    .profile h2.edu h2, .pro h2, .con h2 {
+        font-size: 18px;
     }
 
     .pro h3 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .pro p, .con p {
@@ -302,7 +306,7 @@ footer {
 
 @media (max-width: 576px) {
     .nav {
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
     }
 
@@ -314,12 +318,15 @@ footer {
         font-size: 25px;
     }
 
+    .profile h2 {
+        font-size: 18px;
+    }
     .profile p {
         font-size: 12px;
     }
 
     .edu, .pro, .con {
-        max-width: 100%;
+        max-width: 95%;
         padding: 10px;
         margin: 10px;
     }
@@ -336,4 +343,3 @@ footer {
         font-size: 12px;
     }
 }
-
